@@ -34,9 +34,9 @@ jobs:
   package:
     runs-on: ubuntu-latest
     steps:
-      - uses: hojland/github-changelog-action@v1.0.0
+      - uses: hojland/github-changelog-action@v1.0.1
         with:
-          next_version: "1.0.0"      
+          next_version: "1.0.1"      
 ```
 
 ## License
