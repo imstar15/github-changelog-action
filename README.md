@@ -34,7 +34,7 @@ jobs:
   package:
     runs-on: ubuntu-latest
     steps:
-      - uses: nuuday/github-changelog-action@v1.0.0
+      - uses: hojland/github-changelog-action@v1.0.0
         with:
           next_version: "1.0.0"      
 ```
