@@ -1,5 +1,5 @@
-name: 'Generate changelog with git-chglog'
-description: 'Generate a changelog using conventional commits using the git-chlog tool'
+name: 'Keep a changelog with git-chglog'
+description: 'Generate a changelog using semver commits using the git-chlog tool'
 branding:
   icon: 'calendar'  
   color: 'green'
