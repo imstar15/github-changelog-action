@@ -43,7 +43,7 @@ if [ -f "${config}/config.yml" ] && [ -f "${config}/CHANGELOG.tpl.md" ]; then
   echo "${changelog}"
   echo "----------------------------------------------------------"
 
-  echo "::debug ::git-chlog: -o '${output}'"
+  echo "::info ::git-chlog: -o '${output}'"
   if [[ ! -z "$output" ]]; then
     echo "::debug ::git-chlog -o options is set. writing changelog to ${output}"
     echo "${changelog}" > ${output}
