@@ -28,6 +28,7 @@ done
 shift $((OPTIND -1))
 
 echo "config: ${config}"
+echo "output: ${output}"
 
 if [ -f "${config}/config.yml" ] && [ -f "${config}/CHANGELOG.tpl.md" ]; then
   echo "::debug ::git-chlog: -c '${config}'"
